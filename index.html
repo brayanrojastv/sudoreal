@@ -9,7 +9,7 @@
             h1 { font-size: 50px; margin: 0; }
             article { display: block; text-align: left; max-width: 650px; margin: 0 auto; color: white; }
             a { color: #dc8100; text-decoration: none; }
-            a:hover { color: #333; text-decoration: none; }
+            a:hover { color: #fff; text-decoration: none; }
             @media only screen and (max-width : 480px) {
                 h1 { font-size: 40px; }
             }
@@ -22,8 +22,25 @@
             <p>Lo sentimos los que se ven afectados con este inconveniente.</p>
             <p id="signature">&mdash; <a href="https://www.facebook.com/sobredosiscah">El equipo de Sobredosis CAH.</a></p>
             <h4>Haz click en el texto naranja para entrar a nuestra pagina de Facebook.</h4>
-            <br><br><br><br><br><br><br><br><br><br><br>
-            <a href="file://C:/">Admin Control Panel</a>
+            <br><br>
+           <SCRIPT  language=JavaScript> 
+function go(){
+
+if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+</SCRIPT> 
+<FORM name=form action="TU_PAGINA_WEB.HTML">
+
+<P>Usuario:    <INPUT type=text name=login> 
+<P>Contraseña: <INPUT type=password name=password> 
+<INPUT onclick=go() type=button value=Acceder>
+
+</FORM> 
         </article>
     </body>
 </html>
